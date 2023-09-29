@@ -64,4 +64,9 @@ if __name__=='__main__':
     m.tracePath({a:dSeacrh},showMarked=True,delay=300) # Show the path of the agent
     m.tracePath({b:dfsPath},delay=100) # Show the path of the return agent
     m.tracePath({c:fwdPath},delay=200) # Show the path of the forward agent
+
+    l=textLabel(m,'DFS Final Path Length',len(fwdPath)+1)
+    l=textLabel(m,'DFS Search Length',len(dSeacrh))
+
     m.run()
+

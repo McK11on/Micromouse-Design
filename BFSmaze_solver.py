@@ -65,4 +65,7 @@ if __name__=='__main__':
     m.tracePath({c:bfsPath},delay=100)
     m.tracePath({b:fwdPath},delay=100)
 
+    l=textLabel(m,'BFS Final Path Length',len(fwdPath)+1)
+    l=textLabel(m,'BFS Search Length',len(bSearch))
+
     m.run()
