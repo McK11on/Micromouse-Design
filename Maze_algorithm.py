@@ -1,4 +1,4 @@
-# This program creates a maze and solves it with the A* search algorithm
+# This program creates a maze and solves it 
 
 # To remember
 # m = maze
@@ -8,13 +8,13 @@
 
 # ------------------------------------------------------------------------------------------------------------ #
 import pyamaze as pm
-# Create a maze
+# Configuring the maze
 m = pm.maze(9,9)
 
 # Setting the goal
 goal_x,goal_y = 1,3
-
-m.CreateMaze(goal_x,goal_y,loopPercent=70)
+# Create the maze
+m.CreateMaze(goal_x,goal_y,loopPercent=90)
 
 # Create an agent
 a = pm.agent(m, footprints=True, filled=True)
@@ -23,8 +23,6 @@ a = pm.agent(m, footprints=True, filled=True)
 l1 = pm.textLabel(m,"Toltal Cells",m.cols*m.rows)
 
 # Create the trace path
-m.tracePath({a: m.path},delay=100,showMarked=True)
-
-
+m.tracePath({a: m.path},delay=100)
 
 m.run()
