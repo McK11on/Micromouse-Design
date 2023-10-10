@@ -50,10 +50,10 @@ def aStar(m,start=None):
     return searchPath,aPath,fwdPath
 
 if __name__=='__main__':
-    m=maze(20,30)
+    m=maze(15,25)
 
     ini_cell= (1,1) # Start Cell
-    goal_cell = (20,25) # Goal Cell
+    goal_cell = (10,22) # Goal Cell
 
     m.CreateMaze(goal_cell[0],goal_cell[1],loopPercent=60)
 

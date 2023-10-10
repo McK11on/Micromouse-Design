@@ -50,7 +50,7 @@ if __name__=='__main__':
     ini_cell= (1,1) # Start Cell
     goal_cell = (10,2) # Goal Cell
 
-    m.CreateMaze(goal_cell[0],goal_cell[1],loopPercent=100)
+    m.CreateMaze(goal_cell[0],goal_cell[1],loopPercent=100) #,loadMaze="testingMaze.csv"
 
     # BFS algorithm
     bSearch,bfsPath,fwdPath=BFS(m,ini_cell)
