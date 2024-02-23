@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "830003000")(type "KiCad")(uri "${KIPRJMOD}/Lib/Resonador/830003000.kicad_sym")(options "")(descr ""))
+  (lib (name "CH340G")(type "KiCad")(uri "${KIPRJMOD}/Lib/CH340G/CH340G.kicad_sym")(options "")(descr ""))
+  (lib (name "IRLML6344TRPBF")(type "KiCad")(uri "${KIPRJMOD}/Lib/IRLML6344TRPBF/IRLML6344TRPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "TB6612FNG_C_8_EL")(type "KiCad")(uri "${KIPRJMOD}/Lib/TB6612FNG/TB6612FNG_C_8_EL.kicad_sym")(options "")(descr ""))
+)

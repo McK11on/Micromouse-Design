@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Resonador")(type "KiCad")(uri "${KIPRJMOD}/Lib/Resonador")(options "")(descr ""))
+  (lib (name "CH340G")(type "KiCad")(uri "${KIPRJMOD}/Lib/CH340G")(options "")(descr ""))
+  (lib (name "IRLML6344TRPBF")(type "KiCad")(uri "${KIPRJMOD}/Lib/IRLML6344TRPBF")(options "")(descr ""))
+  (lib (name "TB6612FNG")(type "KiCad")(uri "${KIPRJMOD}/Lib/TB6612FNG")(options "")(descr ""))
+  (lib (name "DobleLed_2.00mm")(type "KiCad")(uri "${KIPRJMOD}/Lib/DobleLed_2.00mm.pretty")(options "")(descr ""))
+)
