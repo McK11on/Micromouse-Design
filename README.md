@@ -1,2 +1,2 @@
-# Maze_Robot
-Design and implementation of a maze robot for competitions, implementing filling algorithm and other technologies
+# MicroMouse
+Design and implementation of a micromouse robot for competitions, implementing filling algorithm and other technologies
